@@ -1,8 +1,8 @@
 <html>
 <!- - 
 Program Name:   Seminole Movie Connection
-Author: 
-Date: 
+Author: Anais Bergues
+Date: 04/14/2017
 Filename:   index.html
 - ->
     
@@ -39,20 +39,49 @@ Filename:   index.html
             <h3 class="list-group-item-heading">Rated:</h3>
             <p class="list-group-item-text lead text-primary" id="Rated"> </p>
         </a>
-        <a href="#" class="list-group-item">
-            <h3 class="list-group-item-heading">Actors:</h3>
-            <p class="list-group-item-text lead text-primary" id="Actors">  </p>
-        </a>
-        
-        <a href="#" class="list-group-item">
-            <h3 class="list-group-item-heading">Plot:</h3>
-            <p class="list-group-item-text lead text-primary" id="Plot">  </p>
-	    </a>
-        
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Genre:</h3>
+            <p class="list-group-item-text lead text-primary" id="Genre">  </p>
+        </a> 
         <a href="#" class="list-group-item">
             <h3 class="list-group-item-heading">Release Date:</h3>
             <p class="list-group-item-text lead text-primary" id="Released">  </p>
         </a> 
+        <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Actors:</h3>
+            <p class="list-group-item-text lead text-primary" id="Actors">  </p>
+        </a>
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Director:</h3>
+            <p class="list-group-item-text lead text-primary" id="Director">  </p>
+        </a> 
+        <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Writer:</h3>
+            <p class="list-group-item-text lead text-primary" id="Writer">  </p>
+        </a> 
+        <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Plot:</h3>
+            <p class="list-group-item-text lead text-primary" id="Plot">  </p>
+	    </a>
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Runtime:</h3>
+            <p class="list-group-item-text lead text-primary" id="Runtime">  </p>
+        </a> 
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Awards:</h3>
+            <p class="list-group-item-text lead text-primary" id="Awards">  </p>
+        </a> 
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">imdbRating:</h3>
+            <p class="list-group-item-text lead text-primary" id="imdbRating">  </p>
+        </a> 
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">imdbVotes:</h3>
+            <p class="list-group-item-text lead text-primary" id="imdbVotes">  </p>
+        </a> 
+        
+        
+        
 
     </div>
 </div> 
@@ -71,6 +100,14 @@ Filename:   index.html
                      $('#Actors').html(json.Actors);
                      $('#Plot').html(json.Plot);
                      $('#Released').html(json.Released);
+                     $('#Genre').html(json.Genre);
+                     $('#Director').html(json.Director);
+                     $('#Writer').html(json.Writer);
+                     $('#Plot').html(json.Plot);
+                     $('#Runtime').html(json.Runtime);
+                     $('#Awards').html(json.Awards);
+                     $('#imdbRating').html(json.imdbRating);
+                     $('#imdbVotes').html(json.imdbVotes);
                 })
                 .fail(function() {
                       alert("Posting failed.");              

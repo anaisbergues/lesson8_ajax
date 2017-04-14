@@ -4,19 +4,19 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+04/14/17
 
 ### Student Name:  
-(First and Last Name)
+Anais Bergues
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+In this assigmnet we learned the importance of Ajax and how useful it is when building on the web. 
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+ https://anaisbergues.github.io/lesson8_ajax/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. Building an app through API
+2. Parse JSON data from HTTP
+3. Using Ajax methods and properties that allow the Client to receive back an
+   HTTP Response from an HTTP request
